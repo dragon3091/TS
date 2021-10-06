@@ -6,7 +6,8 @@ def slowtype(t):
 
    for D in t + "\n":
 
-   	sys.stdout.write(D)   	sys.stdout.flush()
+   	sys.stdout.write(D)   	
+        sys.stdout.flush()
 
    	time.sleep(6/100)
 
